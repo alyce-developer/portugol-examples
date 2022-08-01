@@ -1,5 +1,5 @@
 # portugol-examples
-Linhas de código usando uma pseudo-linguagem algorítmica chamada Portugol.
+Linhas de código usando uma pseudo-linguagem algorítmica chamada Portugol.<br>
 Estudos meus feito no inicio do curso de Desenvolvimento Web Full Stack da GAMA Academy.
 
 
