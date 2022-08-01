@@ -1,0 +1,309 @@
+<!-- Desvios condicionais, SOMA-->
+programa {
+	funcao inicio() {
+		
+		cadeia operacao
+		inteiro n1, n2, resultado
+		escreva("+, -, * ou /? \n")
+		leia(operacao)
+		limpa()
+		escreva("insira o primeiro valor: ")
+		leia(n1)
+		limpa()
+		escreva("insira o segundo valor: ")
+		escreva(n1, " ", operacao, " ")
+		leia(n2)
+		limpa()
+		    se (operacao== "+"){
+		        resultado = n1 + n2
+		}   senao se (operacao== "-"){
+		        resultado = n1 - n2
+		}   senao se (operacao== "*"){
+		        resultado = n1 *n2
+	    }   senao se (operacao== "/"){
+	            resultado = n1 / n2
+        }   senao{
+                resultado = 0
+        }
+        
+        escreva("Resultado é: " ,n1, " " ,operacao, " ", n2, " = ", resultado)
+	}
+}
+
+<!-- Desvios condicionais, MULTIPLICAÇÃO-->
+programa {
+	funcao inicio() {
+		
+		cadeia operacao
+		real n1, n2, resultado
+		escreva("+, -, * ou /? \n")
+		leia(operacao)
+		limpa()
+		escreva("insira o primeiro valor: ")
+		leia(n1)
+		limpa()
+		escreva("insira o segundo valor: ")
+		escreva(n1, " ", operacao, " ")
+		leia(n2)
+		limpa()
+		    se (operacao== "+"){
+		        resultado = n1 + n2
+		}   senao se (operacao== "-"){
+		        resultado = n1 - n2
+		}   senao se (operacao== "*"){
+		        resultado = n1 *n2
+	    }   senao se (operacao== "/"){
+	            resultado = n1 / n2
+        }   senao{
+                resultado = 0.0
+        }
+        
+        escreva("Resultado é: " ,n1, " " ,operacao, " ", n2, " = ", resultado)	
+	}
+}
+
+<!-- Desvios condicionais, DIVISÃO-->
+programa {
+	funcao inicio() {
+		
+		cadeia operacao
+		real n1, n2, resultado
+		escreva("+, -, * ou /? \n")
+		leia(operacao)
+		limpa()
+		escreva("insira o primeiro valor: ")
+		leia(n1)
+		limpa()
+		escreva("insira o segundo valor: ")
+		escreva(n1, " ", operacao, " ")
+		leia(n2)
+		limpa()
+	        se (operacao== "+"){
+		        resultado = n1 + n2
+		}   senao se (operacao== "-"){
+		        resultado = n1 - n2
+		}   senao se (operacao== "*"){
+		        resultado = n1 *n2
+	    }   senao se (operacao== "/"){
+	            resultado = n1 / n2
+        }   senao{
+                resultado = 0.0
+        }
+        escreva("Resultado é: " ,n1, " " ,operacao, " ", n2, " = ", resultado)
+	}
+}
+
+<!-- Desvios condicionais, SUBTRAÇÃO-->
+programa {
+	funcao inicio() {
+		
+		cadeia operacao
+		real n1, n2, resultado
+		escreva("+, -, * ou /? \n")
+		leia(operacao)
+		limpa()
+		escreva("insira o primeiro valor: ")
+		leia(n1)
+		limpa()
+		escreva("insira o segundo valor: ")
+		escreva(n1, " ", operacao, " ")
+		leia(n2)
+		limpa()
+		    se (operacao== "+"){
+		        resultado = n1 + n2
+		}   senao se (operacao== "-"){
+		        resultado = n1 - n2
+		}   senao se (operacao== "*"){
+		        resultado = n1 *n2
+	    }   senao se (operacao== "/"){
+	            resultado = n1 / n2
+        }   senao{
+                resultado = 0.0
+        }        
+        escreva("Resultado é: " ,n1, " " ,operacao, " ", n2, " = ", resultado)
+    
+	
+	}
+}
+
+<!-- Raiz quadrada ex.1-->
+programa {
+	funcao inicio() {
+		real raio, pi, area
+		pi = 3.14159
+		raio = 100.64
+		area =  pi * raio * raio
+		escreva("A área é igual a: " + area)
+	}
+}
+
+<!-- Raiz quadrada ex.2-->
+programa {
+	funcao inicio() {		
+		real raio, pi, area
+		pi = 3.14159
+		raio = 150.00
+		area =  pi * raio * raio
+		escreva("A área é igual a: " + area)
+	}
+}
+
+<!-- Raiz quadrada ex.3-->
+programa {
+	funcao inicio() {		
+		real raio, pi, area
+		pi = 3.14159
+		raio = 2.00
+		area =  pi * raio * raio
+		escreva("A área é igual a: " + area)
+	}
+}
+
+<!-- Exemplo Resto de divisão -->
+programa {
+	funcao inicio() {
+		inteiro idade, anos, meses, dias
+		escreva("digite a qtd de dias: ")
+		leia(idade)
+		anos = idade / 365
+		meses = (idade % 365) / 30
+		dias = (idade % 365) % 30
+		escreva(anos, "ano(s)\n", meses, "mes(es)\n",dias, "dia(s)")
+	}
+}
+
+<!-- Exemplo Regra de três-->
+programa {
+	funcao inicio() {	    
+	    inteiro velocidadeMedia, tempoGasto, km, resultado
+	    escreva("digite um valor: ")
+	    leia(velocidadeMedia)
+        escreva("digite outro valor: ")
+        leia(tempoGasto)
+        km = velocidadeMedia * tempoGasto
+        resultado = km
+        escreva("\n O resultado é: " + resultado / 12.0)
+	}
+}
+
+<!-- Exemplo SOMA.1-->
+programa {
+    funcao inicio() {
+        inteiro numero1, numero2, soma
+		escreva("Digite o primeiro número: ")
+		leia(numero1)
+		escreva("Digite o segundo número: ")
+		leia(numero2)	
+		soma = numero1 + numero2
+		escreva("A soma entre "+numero1+" e "+numero2+" é igual a "+soma+".\n")	
+	}
+}
+
+<!-- Exemplo SOMA.2-->
+programa {
+	funcao inicio() {
+        inteiro numero1, numero2, numero3, soma
+		escreva("Digite o primeiro número: ")
+		leia(numero1)
+		escreva("Digite o segundo número: ")
+		leia(numero2)	
+		escreva("Digite o terceiro número: ")
+		leia(numero3)
+		soma = numero1 + numero2 + numero3
+		escreva("A soma entre "+numero1+", "+numero2+" e "+numero3+" é igual a "+soma+".\n")
+	}
+}
+<!-- Exemplo SOMA.3-->
+programa {
+	funcao inicio() {
+		real a, b, soma
+		escreva("soma: ")
+		leia(a)
+		limpa()
+		escreva("soma: " ,a, " + ")
+		leia(b)
+		limpa()
+		soma = a+b
+		escreva("O resultado da soma é: " ,a, " + " ,b, "=" ,soma)
+	}
+}
+
+
+<!-- Exemplo SOMA COM DUAS VARIAVEIS-->
+programa{
+    funcao inicio() {
+        inteiro numero1, numero2, soma1
+	    escreva("Digite o primeiro numero: ")
+	    leia(numero1)
+	    escreva("Digite o segundo numero: ")
+	    leia(numero2)
+	    soma1 = numero1 + numero2
+	    escreva("A soma entre "+numero1+" e "+numero2+" é igual a "+soma1+";\n")
+	    inteiro numero3, numero4, soma2
+	    escreva("Digite o terceiro numero: ")
+	    leia(numero3)
+	    escreva("Digite o quarto numero: ")
+	    leia(numero4)
+	    soma2 = numero3 + numero4
+	    escreva("A soma entre "+numero3+" e "+numero4+" é igual a "+soma2+".\n")
+	}
+}
+
+<!-- Exemplo SUBTRAÇÃO-->
+programa {
+	funcao inicio(){
+	    inteiro x, y, sub
+		escreva("Digite a primeira diferença: ")
+		leia(x)
+		escreva("Digite a segunda diferença: ")
+		leia(y)
+		sub = x - y
+		escreva("A diferenca entre x e y é igual a: .\n", sub)
+	}
+}
+
+<!-- Exemplo1 MULTIPLICAÇÃO -->
+programa {
+	funcao inicio() {
+		real a, b, multiplicacao
+		escreva("multiplicacao: ")
+		leia(a)
+		limpa()
+		escreva("multiplicacao: " ,a, " * ")
+		leia(b)
+		limpa()
+		multiplicacao  = a*b
+		escreva("O resultado da multiplicação é: " ,a, " * " ,b, "=" ,multiplicacao)
+	}
+}
+
+<!-- Exemplo MULTIPLICAÇÃO -->
+programa {
+	funcao inicio() {
+        inteiro x, y, w, z, mult
+		escreva("Digite a primeira diferenca: ")
+		leia(x)
+		escreva("Digite a segunda diferenca: ")
+		leia(y)
+		escreva ("Digite a terceira diferenca: ")
+		leia(w)
+		escreva("Digite a quarta diferenca: ")
+		leia(z)
+	    mult = x * y - w * z
+		escreva("A multiplicação entre x, y, w e z é igual a: ", mult)
+	}
+}
+
+<!-- Exemplo1 PRODUTO SIMPLES-->
+programa {
+    funcao inicio() {
+	    inteiro numero1, numero2, mult
+	    escreva("Digite o primeiro numero: ")
+	    leia(numero1)
+	    escreva("Digite o segundo numero: ")
+	    leia(numero2)
+	    mult = numero1 * numero2
+        escreva("A multiplicação dos números é igual a: PROD ", mult)    
+	}
+}
+
